@@ -10,7 +10,7 @@
 class Chef
   class Runner
     def converge
-      Chef::Log.info("Skipping converge because this node is disabled")
+      Chef::Log.info("Skipping converge. This node is disabled.")
     end
   end
 end
