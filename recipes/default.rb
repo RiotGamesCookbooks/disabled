@@ -8,4 +8,8 @@
 # All rights reserved - Do Not Redistribute
 #
 
-Chef::Application.fatal!("#{node.fqdn} (#{node.ipaddress}) is disabled. Aborting chef-client run", 1)
+message = "#{node.fqdn} (#{node.ipaddress}) is disabled."
+
+Chef::Log.info("="*message.size)
+Chef::Log.info(message)
+Chef::Log.info("="*message.size)
