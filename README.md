@@ -1,6 +1,6 @@
 # disabled cookbook
 
-This cookbook is used by (Motherbrain)[http://github.com/RiotGames/motherbrain] to prevent chef-client runs from converging on disabled nodes while still allowing chef-client to exit cleanly.
+This cookbook is used by [Motherbrain](http://github.com/RiotGames/motherbrain) to prevent chef-client runs from converging on disabled nodes while still allowing chef-client to exit cleanly.
 
 # Usage
 
