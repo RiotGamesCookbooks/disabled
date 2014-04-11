@@ -4,8 +4,6 @@
 #
 # Copyright 2014, Riot Games
 #
-# All rights reserved - Do Not Redistribute
-#
 
 class Chef
   class Runner
